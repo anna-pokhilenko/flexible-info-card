@@ -17,7 +17,7 @@ h2 {
 li {
   display: flex;
   flex-direction: row;
-  margin: 1.5rem;
+  padding: .5rem 1rem .6rem, 2rem;
 }
 
 li img {
@@ -26,12 +26,15 @@ li img {
 
 li hgroup {
   width: 16rem;
+  margin: 1.5rem;
 }
 
 li a {
   width: 16rem;
+  margin: 1.5rem;
 }
 
 li p {
   width: 25rem;
+  margin: 1.5rem;
 }

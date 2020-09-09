@@ -2,6 +2,7 @@ html {
   font-family: "Open Sans", sans-serif;
   background-color: lightgrey;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -46,4 +47,12 @@ li a {
 li p {
   width: 25rem;
   padding: .5rem 1rem .6rem 2rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
 }

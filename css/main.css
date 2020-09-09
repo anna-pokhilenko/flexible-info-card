@@ -1,9 +1,10 @@
-html {
+body {
   font-family: "Open Sans", sans-serif;
   background-color: lightgrey;
+  margin: 1.5rem;
 }
 
-section ul{
+section ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +18,7 @@ h2 {
 li {
   display: flex;
   flex-direction: row;
-  padding: .5rem 1rem .6rem, 2rem;
+  padding: .5rem 1rem .6rem 2rem;
 }
 
 li img {
@@ -26,15 +27,15 @@ li img {
 
 li hgroup {
   width: 16rem;
-  margin: 1.5rem;
+  padding: .5rem 1rem .6rem 2rem;
 }
 
 li a {
   width: 16rem;
-  margin: 1.5rem;
+  padding: .5rem 1rem .6rem 2rem;
 }
 
 li p {
   width: 25rem;
-  margin: 1.5rem;
+  padding: .5rem 1rem .6rem 2rem;
 }

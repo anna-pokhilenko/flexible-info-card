@@ -17,6 +17,7 @@ h2 {
 li {
   display: flex;
   flex-direction: row;
+  margin: 1.5rem;
 }
 
 li img {

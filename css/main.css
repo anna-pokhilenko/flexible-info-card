@@ -1,6 +1,14 @@
-body {
+html {
   font-family: "Open Sans", sans-serif;
   background-color: lightgrey;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
   margin: 1.5rem;
 }
 

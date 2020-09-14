@@ -6,7 +6,7 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -41,14 +41,15 @@ li hgroup {
 }
 
 li a {
-  width: 16rem;
-  padding: 2rem;
-  align-items: center;
+  margin: auto 0;
+  padding: .5rem 1rem .6rem;
+  text-align: center;
+  background-color: #444;
 }
 
 li p {
   width: 25rem;
-  padding: 2rem;
+  margin: 1.5rem;
 }
 
 h3 {
@@ -60,9 +61,6 @@ h4 {
 }
 
 a {
-  background-color: #444;
-  padding: .5rem 1rem .6rem;
   text-decoration: none;
   color: #fff;
-  text-align: center;
 }

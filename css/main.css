@@ -1,6 +1,6 @@
 html {
   font-family: "Open Sans", sans-serif;
-  background-color: lightgrey;
+  background-color: #ccc;
   box-sizing: border-box;
   line-height: 1.5;
 }
@@ -16,7 +16,7 @@ body {
 section ul {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: stretch;
 }
 
@@ -28,6 +28,7 @@ li {
   display: flex;
   flex-direction: row;
   margin: 1.5rem;
+  justify-content: center;
 }
 
 li img {
@@ -59,10 +60,9 @@ h4 {
 }
 
 a {
-    background-color: #444;
-    padding: .5rem 1rem .6rem;
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
+  background-color: #444;
+  padding: .5rem 1rem .6rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
 }

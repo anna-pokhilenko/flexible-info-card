@@ -5,13 +5,17 @@ html {
   line-height: 1.5;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
 }
 
 section ul {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: stretch;
 }
@@ -22,9 +26,9 @@ h2 {
 
 li {
   display: flex;
-  flex-direction: row;
   margin: 1.5rem;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li img {
@@ -32,7 +36,6 @@ li img {
 }
 
 li hgroup {
-  width: 16rem;
   padding: 2rem;
 }
 
